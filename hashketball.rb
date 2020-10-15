@@ -246,7 +246,7 @@ end
 
 def big_shoe_rebounds
   basketball = game_hash
-  big_shoe_hash - {}
+  big_shoe_hash = {}
   basketball.each do |team_origin, team_info|
     team_info.each do |team_detail, detail|
       if team_detail == :players
