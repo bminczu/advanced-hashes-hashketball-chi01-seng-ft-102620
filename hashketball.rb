@@ -254,7 +254,7 @@ def big_shoe_rebounds
         detail.each do |key|
           key.each do |stats, value|
             if stats == :shoe
-              
+
           binding.pry
         end
         end
