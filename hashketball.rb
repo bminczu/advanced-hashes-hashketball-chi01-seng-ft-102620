@@ -256,6 +256,8 @@ def big_shoe_rebounds
             if stats == :shoe
               if value > size
                 size = value
+          big_shoe_hash = key
+
 binding.pry
         end
         end
@@ -264,5 +266,5 @@ binding.pry
   end
 end
 end
-size
+big_shoe_hash(:rebounds)
 end
